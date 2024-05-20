@@ -1,0 +1,25 @@
+Point = 24.5
+Wins = 18.0
+Losses = 5.0
+
+with open(SCORE, "r") as file: # Read txt Fail
+    lines = file.readlines()
+
+point = float(lines[0].split("=")[1].strip())
+wins = float(lines[1].split("=")[1].strip())
+losses = float(lines[2].split("=")[1].strip())
+
+****
+
+with open('Score.txt', 'w') as file:
+    file.write(f'Point = {point}\n')
+    file.write(f'Wins = {wins}\n')
+    file.write(f'Losses = {losses}\n')
+
+
+
+"XELP" "@123Ts"
+
+--- examples
+XELP-@123ss: Point = 24.5, Wins = 18.0, Losses = 5.0
+HELP-123456: Point = 0.0, Wins = 0.0, Losses = 0.0
