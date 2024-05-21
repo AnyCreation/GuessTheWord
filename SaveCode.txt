@@ -23,3 +23,5 @@ with open('Score.txt', 'w') as file:
 --- examples
 XELP-@123ss: Point = 24.5, Wins = 18.0, Losses = 5.0
 HELP-123456: Point = 0.0, Wins = 0.0, Losses = 0.0
+
+S_@ew
